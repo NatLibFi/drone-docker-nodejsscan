@@ -20,7 +20,7 @@ steps:
   settings:
     context: repo
     dockerfile: repo/Dockerfile
-    repo: quay.io/natlibfi/nikto
+    repo: quay.io/natlibfi/nodejsscan
     registry: quay.io
     username:
       from_secret: docker_username
