@@ -19,7 +19,7 @@ steps:
   image: plugins/docker
   settings:
     context: repo
-    dockerfile: repo/Dockerfile
+    dockerfile: repo/cli.dockerfile
     repo: quay.io/natlibfi/nodejsscan
     registry: quay.io
     username:
